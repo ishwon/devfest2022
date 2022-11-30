@@ -1,9 +1,7 @@
 <template>
   <main class="relative">
-    <!-- <img src="/images/hero.png" class="object-fit" /> -->
-    <!-- <img src="/images/hero.png" class="object-fit" /> -->
     <div class="max-w-6xl mx-auto mt-8">
-        <img src="/images/hero.png" class="object-fit rounded-lg shadow-md mb-8" />
+        <img src="/images/hero-2022.png" class="object-fit rounded-lg shadow-md mb-8" />
         <h2 class="text-3xl font-bold mb-4">What you need to know</h2>
         <div class="flex flex-row">
             <div class="mr-6 w-1/2">
@@ -33,8 +31,13 @@
                 </p>
 
                 <h2 class="text-3xl font-bold mt-8 mb-4">About GDG Mauritius</h2>
-                <p class="mb-4 text-lg">Google Developers Group (GDG) - is an open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion</p>
-                <p class="mb-4 text-lg">DevFest (Developers Festival) Mauritius is a single-day, two-track, inclusive conference for all developers. It is an annual community-run event that offers keynote speakers who are very influential, speaker sessions across multiple product areas, including hack-a-thons, codelabs, and more.</p>
+                <p class="mb-4 text-lg">Google Developers Group (GDG) - is an open and volunteer geek
+                    community who create exciting projects and share experience about Google technologies
+                    with a passion</p>
+                <p class="mb-4 text-lg">DevFest (Developers Festival) Mauritius is a single-day, two-track,
+                    inclusive conference for all developers. It is an annual community-run event that offers
+                    keynote speakers who are very influential, speaker sessions across multiple product
+                    areas, including hack-a-thons, codelabs, and more.</p>
             </div>
             <div class="ml-6 w-1/2 grid grid-cols-2">
                 <div class="w-1/2 flex flex-col">
