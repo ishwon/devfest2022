@@ -32,4 +32,35 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+
+  <footer class="bg-gray-100">
+    <div class="max-w-6xl mx-auto">
+      <nav class="py-12 flex flex-row justify-between border-b border-gray-300">
+        <!-- About -->
+        <div class="flex flex-col gap-1 text-gray-500">
+          <h3 class="mb-2 text-xl text-gray-600 font-bold">About</h3>
+          <a href="#" class="text-sm">GDG Mauritius</a>
+          <a href="#" class="text-sm">Google Developers Group</a>
+          <a href="#" class="text-sm">Meet the Team</a>
+        </div>
+        <!-- Past DevFests -->
+        <div class="flex flex-col gap-1 text-gray-500">
+          <h3 class="mb-2 text-xl text-gray-600 font-bold">Explore Past DevFests</h3>
+          <a href="#" class="text-sm">DevFest Mauritius 2019</a>
+          <a href="#" class="text-sm">DevFest Mauritius 2018</a>
+        </div>
+        <!-- Event Resources -->
+        <div class="flex flex-col gap-1 text-gray-500">
+          <h3 class="mb-2 text-xl text-gray-600 font-bold">Event Resources</h3>
+          <a href="#" class="text-sm">Partnership Proposition</a>
+          <a href="#" class="text-sm">Call for Papers</a>
+        </div>
+      </nav>
+
+      <div class="py-4 flex flex-row justify-between items-center">
+        <img class="h-12" src="/images/logo-dark.png" />
+        <a href="#" class="text-sm text-gray-500">Code of Conduct</a>
+      </div>
+    </div>
+  </footer>
 </template>
