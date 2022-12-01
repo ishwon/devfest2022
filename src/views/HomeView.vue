@@ -86,6 +86,7 @@
             <img class="h-32" src="/images/novity.jpg" />
             <img class="h-32" src="/images/sdworx.svg" />
             <img class="h-12 ml-4 mr-6" src="/images/cloud-mu.svg" />
+            <img class="h-12 mx-4" src="/images/Google.svg" />
             <img class="h-32" src="/images/ios.png" />
         </div>
     </div>
