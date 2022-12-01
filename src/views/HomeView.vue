@@ -1,6 +1,6 @@
 <template>
   <main class="relative">
-    <div class="max-w-6xl mx-auto mt-4 md:mt-8 mb-10 px-4 md:px-0">
+    <div class="max-w-6xl mx-auto mt-4 md:mt-8 mb-10 px-4 lg:px-0">
         <img src="/images/hero-2022.png" class="object-fit rounded-lg shadow-md mb-2 md:mb-8" />
         <h2 class="text-2xl md:text-3xl font-bold mb-3 md:mb-4">About GDG Mauritius</h2>
         <div class="flex flex-col md:flex-row">
@@ -54,13 +54,13 @@
         </div>
 
         <!-- Devfest 2022 video trailer -->
-        <div class="mt-8 mx-4 lg:mx-0 grid place-items-center">
+        <div class="mt-8 grid place-items-center">
             <h2 class="text-3xl font-bold text-green-600 mb-4">What's awaiting at DevFest 2022!</h2>
             <iframe class="rounded-md md:rounded-lg w-[100%] h-[100%] lg:w-[800px] md:h-[405px]" src="https://www.youtube.com/embed/K6W9Usve6hI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <!-- The Event -->
-        <div class="mt-8 md:mt-20 mx-4 lg:mx-0 flex flex-col md:flex-row">
+        <div class="mt-8 md:mt-20 flex flex-col md:flex-row">
             <div class="md:mr-2 lg:mr-6 md:w-1/2">
                 <img class="rounded-md md:rounded-lg md:mt-2" src="/images/alc.jpeg" />
             </div>
@@ -76,13 +76,13 @@
         </div>
 
         <!-- Location map -->
-        <div class="mt-8 md:mt-20 mx-4 lg:mx-0 grid place-items-center">
+        <div class="mt-8 md:mt-20 grid place-items-center">
             <iframe class="rounded-lg w-[100%] md:h-[405px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746.7668730684636!2d57.56026181528462!3d-20.10202984887379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5522a5ca9c1f%3A0x3bdb9ec034be93fa!2sAfrican%20Leadership%20College!5e0!3m2!1sen!2smu!4v1669811589702!5m2!1sen!2smu" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <!-- Partners -->
         <div class="grid place-items-center md:place-items-start">
-            <h2 class="mt-8 md:mt-10 mx-4 lg:mx-0 text-3xl font-bold">Partners</h2>
+            <h2 class="mt-8 md:mt-10 text-3xl font-bold">Partners</h2>
         </div>
 
         <div class="md:hidden sm:block lg:block">

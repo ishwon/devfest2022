@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header class="shadow-md bg-white sticky top-0 z-50">
-    <nav class="max-w-6xl mx-auto py-4 px-4 md:px-0">
+    <nav class="max-w-6xl mx-auto py-4 px-4 lg:px-0">
         <div class="flex justify-between items-center">
             <RouterLink to="/">
                 <img src="/images/gdg-mauritius-logo.svg" class="h-3.5 md:h-5" />
