@@ -5,18 +5,20 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header class="shadow-md bg-white sticky top-0 z-50">
-    <nav class="max-w-6xl mx-auto py-4">
+    <nav class="max-w-6xl mx-auto py-4 px-4 md:px-0">
         <div class="flex justify-between items-center">
             <RouterLink to="/">
-                <img src="/images/gdg-mauritius-logo.svg" class="h-5" />
+                <img src="/images/gdg-mauritius-logo.svg" class="h-3.5 md:h-5" />
             </RouterLink>
 
-            <ul class="flex flex-row gap-4 text-sm">
+            <div class="hidden md:block">
+              <ul class="flex flex-row gap-4 text-sm">
                 <li class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300"><RouterLink to="/">HOME</RouterLink></li>
                 <li class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300"><RouterLink to="/">AGENDA</RouterLink></li>
                 <li class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300"><RouterLink to="/">SPEAKERS</RouterLink></li>
                 <li class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300"><a href="https://gdg.community.dev/events/details/google-gdg-mauritius-presents-devfest-mauritius-2022/">REGISTER</a></li>
-            </ul>
+              </ul>
+            </div>
         </div>
     </nav>
   </header>
@@ -25,7 +27,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
   <footer class="bg-gray-100">
     <div class="max-w-6xl mx-auto">
-      <nav class="py-12 flex flex-row justify-between border-b border-gray-300">
+      <nav class="py-6 lg:py-12 mx-4 lg:mx-0 flex flex-col md:flex-row gap-4 md:gap-0 justify-between border-b border-gray-300">
         <!-- About -->
         <div class="flex flex-col gap-1 text-gray-500">
           <h3 class="mb-2 text-xl text-gray-600 font-bold">About</h3>
@@ -47,7 +49,7 @@ import HelloWorld from './components/HelloWorld.vue'
         </div>
       </nav>
 
-      <div class="py-4 flex flex-row justify-between items-center">
+      <div class="py-4 mx-4 lg:mx-0 flex flex-row justify-between items-center">
         <img class="h-12" src="/images/logo-dark.png" />
         <a href="#" class="text-sm text-gray-500">Code of Conduct</a>
       </div>
