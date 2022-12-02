@@ -1,7 +1,23 @@
 {
   "name": "devfest2022",
-  "version": "0.0.0",
-  "scripts": {
+  "description": "Website for Google DevFest 2022 Mauritius",
+  "demo": "https://devfest.mscc.mu/",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Mauritius Software Craftsmanship Community",
+    "email": "hello@mscc.mu",
+    "url": "https://www.mscc.mu"
+},
+"repository": {
+  "type": "git",
+  "url": "https://github.com/mscraftsman/devfest2022.git"
+},
+"bugs": "https://github.com/mscraftsman/devfest2022/issues",
+"contributors": [
+  "https://github.com/mscraftsman/devfest2022/graphs/contributors"
+],
+"scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
