@@ -5,7 +5,7 @@
         <h2 class="text-2xl md:text-3xl font-bold mb-3 md:mb-4">About GDG Mauritius</h2>
         <div class="flex flex-col md:flex-row">
             <div class="md:mr-6 md:w-1/2">
-                <p class="mb-2 md:mb-4 text-sm md:text-lg">Google Developers Group (GDG) - is an open and volunteer geek
+                <p class="mb-2 md:mb-4 text-sm md:text-lg">Google Developer Groups (GDG) - is an open and volunteer geek
                     community who create exciting projects and share their experience about Google technologies
                     with a passion.</p>
                 <p class="mb-2 md:mb-4 text-sm md:text-lg">DevFest (Developers Festival) Mauritius is a single-day, two-track,
