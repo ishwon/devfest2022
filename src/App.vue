@@ -24,6 +24,9 @@ import HelloWorld from './components/HelloWorld.vue'
                   <RouterLink to="/">SPEAKERS</RouterLink>
                 </li>
                 <li class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300">
+                  <a href="https://devfest-mauritius-2022.sessionize.com/" target="_blank" rel="noreferrer" >PWA</a>
+                </li>
+                <li class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300">
                   <a href="https://gdg.community.dev/events/details/google-gdg-mauritius-presents-devfest-mauritius-2022/" target="_blank" rel="noreferrer" >REGISTER</a>
                 </li>
               </ul>
