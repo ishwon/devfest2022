@@ -38,8 +38,9 @@ import HelloWorld from './components/HelloWorld.vue'
         <!-- Past DevFests -->
         <div class="flex flex-col gap-1 text-gray-500">
           <h3 class="mb-2 text-xl text-gray-600 font-bold">Explore Past DevFests</h3>
-          <a href="#" class="text-sm">DevFest Mauritius 2019</a>
-          <a href="#" class="text-sm">DevFest Mauritius 2018</a>
+          <a href="https://www.mscc.mu/devfest-mauritius-2020/" class="text-sm">DevFest Mauritius 2020</a>
+          <a href="https://www.mscc.mu/devfest-mauritius-2019/" class="text-sm">DevFest Mauritius 2019</a>
+          <a href="https://www.mscc.mu/devfest-mauritius-2018/" class="text-sm">DevFest Mauritius 2018</a>
         </div>
         <!-- Event Resources -->
         <div class="flex flex-col gap-1 text-gray-500">
