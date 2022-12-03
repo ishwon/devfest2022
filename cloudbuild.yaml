@@ -1,0 +1,18 @@
+# [START cloudbuild_npm_node]
+steps:
+- name: node
+  entrypoint: npm
+  args: ['install']
+# - name: node
+#   entrypoint: npm
+#   args: ['test']
+- name: node
+  entrypoint: npm
+  args: ['run', 'build']
+# [END cloudbuild_npm_node]
+
+artifacts:
+  objects:
+    location: 'gs://$PROJECT_ID'
+    paths: ['dist/*']
+  
