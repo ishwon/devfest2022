@@ -97,16 +97,27 @@
 
         <div class="hidden md:block lg:hidden">
             <div class="flex flex-row gap-4 items-center">
-                <img class="h-32" src="/images/novity.jpg" />
-                <img class="h-32" src="/images/sdworx.svg" />
-                <img class="h-12 md:ml-4 md:mr-6 mt-3 md:mt-0" src="/images/cloud-mu.svg" />
+							<img class="h-32" src="/images/novity.jpg" />
+							<img class="h-32" src="/images/sdworx.svg" />
+							<img class="h-12 md:ml-4 md:mr-6 mt-3 md:mt-0" src="/images/cloud-mu.svg" />
             </div>
             <div class="flex flex-row gap-4 items-center">
-                <img class="h-12 md:mx-4 mt-10 md:mt-0" src="/images/Google.svg" />
-                <img class="h-32 mt-3 md:mt-0" src="/images/ios.png" />
+							<img class="h-12 md:mx-4 mt-10 md:mt-0" src="/images/Google.svg" />
+							<img class="h-32 mt-3 md:mt-0" src="/images/ios.png" />
             </div>
         </div>
 
+				<SessionsComponent />
     </div>
   </main>
 </template>
+
+<script>
+import SessionsComponent from '../components/SessionsComponent.vue';
+
+export default {
+	components: {
+		SessionsComponent,
+	}
+}
+</script>
