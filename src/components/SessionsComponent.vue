@@ -10,7 +10,6 @@
 
 <script>
 import postscribe from "postscribe";
-
 export default {
   mounted() {
     postscribe(
