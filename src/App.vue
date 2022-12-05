@@ -18,10 +18,10 @@ import HelloWorld from './components/HelloWorld.vue'
                   <RouterLink to="/">HOME</RouterLink>
                 </li>
                 <li class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300">
-                  <RouterLink to="/">AGENDA</RouterLink>
+                  <RouterLink to="agenda">AGENDA</RouterLink>
                 </li>
                 <li class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300">
-                  <RouterLink to="/">SPEAKERS</RouterLink>
+                  <RouterLink to="speakers">SPEAKERS</RouterLink>
                 </li>
                 <li class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300">
                   <a href="https://devfest-mauritius-2022.sessionize.com/" target="_blank" rel="noreferrer" >PWA</a>

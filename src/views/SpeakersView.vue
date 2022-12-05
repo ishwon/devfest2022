@@ -1,17 +1,17 @@
 <template>
   <main class="relative">
     <div class="max-w-6xl mx-auto pt-4 pb-16">
-        <SessionsComponent />
+        <SpeakersComponent />
       </div>
   </main>
 </template>
 
 <script>
-import SessionsComponent from '../components/SessionsComponent.vue';
+import SpeakersComponent from '../components/SpeakersComponent.vue';
 
 export default {
 	components: {
-		SessionsComponent,
+		SpeakersComponent,
 	}
 }
 </script>

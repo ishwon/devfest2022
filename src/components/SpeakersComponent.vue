@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="grid place-items-center md:place-items-start">
-      <h2 class="mt-8 md:mt-10 text-3xl font-bold">Agenda</h2>
+    <div class="grid place-items-center">
+      <h2 class="mt-8 mb-8 md:mt-10 text-3xl font-bold">Speakers</h2>
     </div>
 
-    <div id="sessionizeComponent"></div>
+    <div id="sessionizeSpeakersComponent"></div>
   </div>
 </template>
 
@@ -14,8 +14,8 @@ import postscribe from "postscribe";
 export default {
   mounted() {
     postscribe(
-      "#sessionizeComponent",
-      `<script type="text/javascript" src="https://sessionize.com/api/v2/fruu0wnv/view/GridSmart"><\/script>`
+      "#sessionizeSpeakersComponent",
+      `<script type="text/javascript" src="https://sessionize.com/api/v2/fruu0wnv/view/SpeakerWall"><\/script>`
     );
     setTimeout(() => {
       this.init();
