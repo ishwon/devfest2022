@@ -13,6 +13,6 @@ steps:
 
 artifacts:
   objects:
-    location: 'gs://$PROJECT_ID'
+    location: 'gs://devfest.mscc.mu'
     paths: ['dist/*']
   
