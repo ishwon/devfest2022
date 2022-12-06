@@ -47,7 +47,7 @@ import HelloWorld from "./components/HelloWorld.vue";
                 href="https://devfest2022.myboothpic.co/virtual/capture/VyGKV"
                 target="_blank"
                 rel="noreferrer"
-                >Photobooth</a
+                >PHOTOBOOTH</a
               >
             </li>
             
