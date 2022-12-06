@@ -16,7 +16,7 @@
 
                 <h2 class="text-2xl md:text-3xl font-bold mb-4">What you need to know</h2>
                 <p class="mb-2 md:mb-4 text-sm md:text-lg">
-                    We are so thrilled to be able to host DevFest22 at the African Leadership University this year.
+                    We are so thrilled to be able to host DevFest22 at the African Leadership College this year.
                 </p>
                 <p class="mb-2 md:mb-4 text-sm md:text-lg">
                     Although restrictions are lifted, we highly recommend everyone to take necessary precautions as 
