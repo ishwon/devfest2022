@@ -44,6 +44,17 @@ import HelloWorld from "./components/HelloWorld.vue";
               class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300"
             >
               <a
+                href="https://devfest2022.myboothpic.co/virtual/capture/VyGKV"
+                target="_blank"
+                rel="noreferrer"
+                >Photobooth</a
+              >
+            </li>
+            
+            <li
+              class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300"
+            >
+              <a
                 href="https://gdg.community.dev/events/details/google-gdg-mauritius-presents-devfest-mauritius-2022/"
                 target="_blank"
                 rel="noreferrer"
@@ -131,6 +142,13 @@ import HelloWorld from "./components/HelloWorld.vue";
             rel="noreferrer"
             class="text-sm"
             >Call for Papers</a
+          >
+          <a
+            href="https://docs.google.com/presentation/d/1LBo5xogj1FZOhpECjU1pxPOvCgTKVT7mUP8ngV95Xgg/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            class="text-sm"
+            >Speaker Presentation Template</a
           >
         </div>
       </nav>
