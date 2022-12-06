@@ -14,5 +14,5 @@ steps:
 artifacts:
   objects:
     location: 'gs://devfest.mscc.mu'
-    paths: ['dist/*']
+    paths: ['dist/**']
   
