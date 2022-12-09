@@ -2,7 +2,7 @@
   "name": "devfest2022",
   "description": "Website for Google DevFest 2022 Mauritius",
   "demo": "https://devfest.mscc.mu/",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Mauritius Software Craftsmanship Community",
